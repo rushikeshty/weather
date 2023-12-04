@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppCompat.NoActionBar.DarkActionBar" parent="Theme.Material3.DayNight">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle"> @style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:actionBarSize"> wrap_content</item>
+      </style>
+
+    <style name="PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+     </style>
+
+</resources>

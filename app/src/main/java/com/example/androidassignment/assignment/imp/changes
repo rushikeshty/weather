@@ -1,0 +1,10 @@
+Separate classes with network services
+
+Add interceptor:-
+Logging , HTTP Headers, Authentication, Error Handling
+
+Hardcode api
+
+Room db for storing pass user
+
+Use rx

@@ -1,0 +1,37 @@
+Keeping references can cause memory leaks in Java or Kotlin.
+It’s a useful habit to remove listeners as soon as they are no longer needed
+// remove listeners like set-onclick listeners
+
+Asynchronous vs. synchronous programming
+Ultimately, the choice comes down to operational dependencies.
+Do you want the start of an operation to depend on another operation’s completion,
+or do you want it to run independently?
+
+Asynchronous is a non-blocking architecture, so the execution of one task isn’t dependent
+on another Tasks can run simultaneously.
+
+Synchronous is a blocking architecture, so the execution of each operation depends on completing
+the one before it.
+Each task requires an answer before moving on to the next iteration.
+
+The differences between asynchronous and synchronous include:
+
+Async is multi-thread, which means operations or programs can run in parallel.
+Sync is a single-thread, so only one operation or program will run at a time.
+Async is non-blocking, which means it will send multiple requests to a server.
+Sync is blocking — it will only send the server one request at a time and wait for that request
+to be answered by the server.
+Async increases throughput because multiple operations can run at the same time.
+Sync is slower and more methodical.
+
+
+# Android Services: Background & Foreground Services
+Background:- A service is a component that runs on the background to perform long running task.
+             It is terminated when app is terminated.
+
+Foreground:- A Foreground service is a service that stays alive even
+             when the app is terminated.
+
+Bound:- A bound service is a service that runs only when the component is bound
+        to is still alive
+

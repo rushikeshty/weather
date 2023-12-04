@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="get_start">Get Start</string>
+    <string name="forecasts">ForeCasts</string>
+    <string name="weather">Weather</string>
+    <string name="image">image</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up"><u>Don\'t have account click here to sign up</u></string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_city_name">Enter city name...</string>
+    <string name="search">search</string>
+    <string name="log_out">Log out</string>
+    <string name="Imagevalue">Imagevalue</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="rainpercentage">rainpercentage</string>
+    <string name="welcome_to_weather_app">Welcome To Weather App</string>
+    <string name="email">Email</string>
+    <string name="let_s_login">Let\'s Login</string>
+    <string name="let_s_register">Let\'s Register</string>
+    <string name="name">Name</string>
+    <string name="email_address_should_contain_domain_name_after">email address should contain domain name after @</string>
+    <string name="all_fields_are_required">All fields are required</string>
+    <string name="email_address_should_contain">email address should contain @</string>
+    <string name="email_address_must_be_required">email address must be required</string>
+    <string name="enter_the_password">Enter the password</string>
+    <string name="email_address_should_not_contain">"email address should not contain {%1$s} "</string>
+    <string name="password_should_contain_8_characters">Password should contain 8 characters</string>
+    <string name="successfully_logged_in">Successfully logged in</string>
+    <string name="username_or_password_incorrect">username or password incorrect</string>
+    <string name="weather_notifications">weather notifications</string>
+    <string name="welcome_rushikesh">Welcome rushikesh</string>
+    <string name="android_net_conn_connectivity_change">android.net.conn.CONNECTIVITY_CHANGE</string>
+    <string name="data_not_found">Data not found</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

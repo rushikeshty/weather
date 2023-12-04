@@ -1,0 +1,32 @@
+Calling thread:- A calling thread is the thread that calls a method or the thread inside
+which a method is called. If thread 1 calls method A then calling thread of method A is thread 1
+
+suspend function:- suspend functions don't block the thread they are running on instead they free up
+the thread for other tasks ensuring smother performance, especially on the UI thread. They can
+pause their execution without blocking the calling thread and can be resumed later.
+suspend function should call only within coroutine or another suspend function.
+### How suspend functions work under the hood (internally)
+1) State Machine Transformation
+2) Continuations
+3) Callbacks Behind The Scenes
+-- when we declare function with a suspend modifier the kotlin compiler does some extra work to make
+-- the pausing and resuming possible.
+  1] State Machine Transformation:- kotlin compiler transforms suspend functions into series of
+   state machines. each state machine represents part of functions. when a function suspend
+   it saves its current state.when resumes it starts from its saved state
+  2] Continuations:- it is an object holds current state and context of computation. every suspend
+   function takes additional hidden parameter used to control flow of execution.
+
+Thread pool:-
+coroutine context:-
+Dispatchers:-
+i] Dispatchers.Main:- It will start a coroutine in the main thread and that is useful when you want
+  to perform UI operations from within your coroutine because you can only change UI from main thread
+ii] Dispatchers.IO:- Used for all kinds of data operations such as networking , writing to databases
+iii] Dispatchers.Default:- Used when you are planning for doing complex and long running lets say if
+you have list of 10000 elements then you should use default to not block main thread
+***iv] Dispatcher.Unconfined:- unconfined dispatcher is not limited to a specific thread or thread
+ pool It allows the coroutine to start on the current thread where it was launched
+v] runBlocking:- This will block our UI updates. This can be used when we want to use suspend
+function. and suspend function must not be asynchronous.
+vii] Async and wait:-
