@@ -23,7 +23,7 @@ This project is a Smart Weather Android application built using the MVVM archite
 
 ## Getting Started
 To run the application locally:
-1. Clone the repository from GitHub: [Repository Link](https://github.com/yourusername/your-repository).
+1. Clone the repository from GitHub: [Repository Link](https://github.com/rushikeshty/weather).
 2. Open the project in Android Studio.
 3. Build and run the application on an Android device or emulator.
 
