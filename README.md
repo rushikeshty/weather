@@ -1,13 +1,13 @@
-# Weather Application: Bold
+# ForecastNow Application: Bold
 
 ## Overview
-This project is a Smart Weather Android application built using the MVVM architecture pattern and Kotlin programming language. It leverages RxJava to handle asynchronous events and data streams effectively, ensuring the codebase is reactive and responsive.
+This project is a Smart ForecastNow Android application built using the MVVM architecture pattern and Kotlin programming language. It leverages RxJava to handle asynchronous events and data streams effectively, ensuring the codebase is reactive and responsive.
 
 ## Features
 - **MVVM Architecture**: Utilizes Model-View-ViewModel architecture to separate business logic from UI components, promoting maintainability and testability.
 - **Kotlin**: Modern programming language used throughout the application for its conciseness and safety features.
 - **RxJava**: Integrates RxJava to manage asynchronous operations and data streams in a reactive manner, improving code clarity and responsiveness.
-- **Smart Weather**: Provides accurate and real-time weather information based on location using weather APIs.
+- **Smart ForecastNow**: Provides accurate and real-time weather information based on location using weather APIs.
 - **Responsive Design**: Ensures a smooth and intuitive user experience across different devices and screen sizes.
 
 ## Components
